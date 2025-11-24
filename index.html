@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../templates/static/css">
+    <script src="../templates/static/jss"></script>
+    <title>VIAJES DEL SOL</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">VIAJES DEL SOL</div>
+        <U1 class="nav-links">
+            <li><a href="#inicio">INICIO</a></li>
+            <li><a href="#paquetes">PAQUETES</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+            <li><a href="#acerca">ACERCA DE NOSOSTROS</a></li>
+        </U1>
+    <button class="burger">
+    <span></span>
+    <span></span>
+    <span></span>
+    </button>
+    </nav>
+
+    <header id="inicio" class="hero-section">
+        <h1>VIAJES DEL SOL</h1>
+        <P>Viajes del Sol te invita a explorar la esencia viva de la Mixteca a través de experiencias auténticas, recorridos culturales y encuentros cercanos con la tradición, la historia y la belleza natural de Huajuapan, Tezoatlán y Tamazulapan. Cada viaje está diseñado para conectar contigo y hacer de tu visita un recuerdo inolvidable.
+Descubre más de nuestros servicios.</P>
+        <a href="paquetes" class="btn-primary">Descubrir mas</a>
+    </header>
+
+    <main>
+        <section id="paquetes" class="cards-container">
+            <h2>NUESTROS PAQUETES</h2>
+            <div class="cards">
+                <div class="card">
+                 <h3>Paquete Huajuapan Cultural y Gastronómico</h3>
+                             <p>Sumérgete en la riqueza histórica y culinaria de Huajuapan, un recorrido ideal
+                              para quienes desean conocer las raíces y sabores de la Mixteca</p>
+                              <p><strong>Lugares a visitar:</strong></p>
+                            <ul>
+                              <li>Plaza de la Libertad</li>
+                              <li>Parroquia de El Sagrario</li>
+                              <li>Museo Regional de Huajuapan</li>
+                              <li>Mercado Tradicional</li>
+                              <li>Taller gastronómico / casa productora</li>
+                              <li><strong>$650 MXN / persona</strong></li>
+                            </ul>
+                </div>
+              <div class="card">
+                 <h3>Paquete Tezoatlán Tradición y Naturaleza</h3>
+                 <p>Descubre la esencia tradicional de Tezoatlán combinada con paisajes naturales
+                    que muestran la belleza auténtica de la región mixteca.</p>
+                 <p><strong>Lugares a visitar:</strong></p>
+                   <ul>
+                      <li>Centro Histórico</li>
+                      <li>Parroquia de Santa María de la Asunción</li>
+                      <li>Talleres artesanales</li>
+                      <li>Mirador Panorámico</li>
+                      <li>Zona natural: presa o área recreativa</li>
+                      <li><strong>$600 MXN / persona</strong></li>
+                   </ul>
+              </div>
+        <div class="card">
+             <h3>Paquete Tamazulapan Cultural y Escénico</h3>
+             <p>Un recorrido lleno de cultura, paisajes y sabores locales, perfecto para quienes
+                disfrutan de la tranquilidad y los atractivos naturales.</p>
+             <p><strong>Lugares a visitar:</strong></p>
+  <ul>
+    <li>Centro Histórico</li>
+    <li>Parroquia de Nuestra Señora de la Natividad</li>
+    <li>Mercado Local</li>
+    <li>Laguna Encantada</li>
+    <li>Taller artesanal / productores locales</li>
+    <li><strong>$600 MXN / persona</strong></li>
+  </ul>
+</div>
+<div class="card">
+  <h3>RUTA MIXTECA VIVA (3 días / 2 noches)</h3>
+  <p>Vive una experiencia completa recorriendo Huajuapan, Tezoatlán y Tamazulapan
+     en un paquete ideal para familias y grupos que desean conocer lo mejor de la región.</p>
+  <p><strong>Lugares a visitar:</strong></p>
+  <ul>
+    <li>Huajuapan: Plaza de la Libertad, Parroquia El Sagrario, Museo Regional, Mercado, Taller gastronómico</li>
+    <li>Tezoatlán: Centro histórico, Parroquia, Artesanos, Mirador, Zona natural</li>
+    <li>Tamazulapan: Centro histórico, Parroquia, Mercado, Laguna Encantada, Taller artesanal</li>
+    <li><strong>$4,200 MXN / persona</strong></li>
+</ul>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="contact-section">
+            <h2>CONTACTO</h2>
+            <form id="contac-form" method="POST" action="/send_message">
+                <input type="text" name="nombre" placeholder="Nombre"required>
+                <input type="whatsApp" name="Telefono" placeholder="Telefono"required>
+                <textarea name="mensaje" placeholder="Mensaje"required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+      <!-- Contenedor para mensajes flasg -->
+       <div id="flash-messages" class="flash-messages"></div>
+
+       <section id="acerca" class="about-section">
+        <h2>ACERCA DE NOSOSTROS</h2>
+        <P>En Viajes del Sol nos dedicamos a crear experiencias turísticas únicas en la región Mixteca, conectando a los visitantes con su cultura, tradiciones y belleza natural. Nuestro compromiso es ofrecer recorridos seguros, auténticos y diseñados con pasión para que cada viaje sea inolvidable. Trabajamos de la mano con comunidades locales para impulsar el turismo responsable y mostrar lo mejor de nuestra tierra.</P>
+       
+       </section>
+
+    </main>
+    <footer>
+        <P>&copy;© 2025 Viajes del Sol. Todos los derechos reservados.</P>
+    </footer>
+</body>
+</html>
